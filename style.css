@@ -415,7 +415,7 @@ footer .barra .inner:hover::after{
    right: -8px;
 }
 
-footer .barra:hover .inner{
+footer .barra:hover .in{
    background-color: #adff2f;
 }
 
