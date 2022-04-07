@@ -243,20 +243,20 @@ margin-right: 5px;
    gap: 20px;
 }
 
-.content .row .card-song{
+.content .row .cover-song{
    width: calc(100% /2 - 10px);
 }
 
-.content .row .card-song .card-song-img{
+.content .row .cover-song .cover-song-img{
    position: relative;
 }
 
-.content .row .card-song .card-song-img img{
+.content .row .cover-song .cover-song-img img{
    object-fit: cover;
    width: 100%;
 }
 
-.card-song .card-song-img .overlay{
+.cover-song .cover-song-img .overlay{
    position: absolute;
    top: 0;
    left: 0;
@@ -272,27 +272,27 @@ margin-right: 5px;
    
 }
 
-.card-song:hover .card-song-img .overlay{
+.cover-song:hover .cover-song-img .overlay{
        opacity: 1;
 }
 
-.content .row .card-song .card-song-info{
+.content .row .cover-song .cover-song-info{
    text-align: center;
    padding: 5px 0;
 }
 
-.content .row .card-song .card-song-info .titol{
+.content .row .cover-song .cover-song-info .titol{
    color: #ffffff;
    font-weight: 700;
 }
 
-.content .row .card-song .card-song-info .autor{
+.content .row .cover-song .cover-song-info .autor{
    font-size: small;
    font-weight: 700;
    margin-top: 5px;
 }
 
-.card-song-img.circle{
+.cover-song-img.circle{
    border-radius: 100%;
    overflow: hidden;
 }
@@ -426,7 +426,7 @@ footer .barra:hover .inner{
 
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
    header{
        width: calc(100% - 250px);
    }
@@ -444,7 +444,7 @@ footer .barra:hover .inner{
        width: 250px;
    }
 
-   .hide{
+   .none{
        display: block;
    }
 
@@ -466,7 +466,7 @@ footer .barra:hover .inner{
        gap: 10px;
    }
 
-   .content .row .card-song{
+   .content .row .cover-song{
        width: calc(100% /4 - 10px);
    }
  
@@ -478,7 +478,7 @@ footer .barra:hover .inner{
    }
 
    
-   .content .row .card-song{
+   .content .row .cover-song{
        width: calc(100% / 6 - 10px);
    }
 
